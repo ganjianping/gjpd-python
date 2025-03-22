@@ -45,7 +45,7 @@ This project demonstrates how to use the OpenAI API with Python to create AI-pow
 
 Run the introduction example:
 ```bash
-python3 openai/introduction.py
+python3 openai/text-input.py
 ```
 
 ## Project Structure
@@ -59,6 +59,10 @@ python3 openai/introduction.py
 ```bash
 pip show openai
 ```
+
+## Useful Resources
+
+- [AI Cookbook](https://github.com/daveebbelaar/ai-cookbook/tree/main) - This Cookbook contains examples and tutorials to help developers build AI systems, offering copy/paste code snippets that you can easily integrate into your own projects.
 
 ## License
 
