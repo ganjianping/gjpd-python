@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "GJPD": {
+      "command": "~/.local/bin/uv",
+      "args": [
+        "--directory",
+        "~/gjpd-python/mcp_server",
+        "run",
+        "main.py"
+      ],
+      "transportType": "stdio"
+    }
+  }
+}
