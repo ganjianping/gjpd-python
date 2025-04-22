@@ -31,8 +31,15 @@ uv pip freeze > requirements.txt
 ### Running the Server Locally
 ```bash
 # Start the server with uv
-uv run main.py
+uv run main.py   
 ```
+
+### Run in development mode
+```bash
+uv run main.py --dev
+uv run mcp dev server.py
+```
+
 
 ## Claude for Desktop Integration
 
@@ -50,7 +57,7 @@ uv run main.py
          "command": "/full/path/to/uv",
          "args": [
            "--directory", 
-           "/Users/ganjianping/Code/gjp-demo/gjpd-python/mcp_server",
+           "~/Code/gjp-demo/gjpd-python/mcp/fast_mcp_server",
            "run",
            "main.py"
          ],
