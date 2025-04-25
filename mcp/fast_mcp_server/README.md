@@ -46,7 +46,7 @@ uv run mcp dev server.py
 ### Configuration
 1. Edit Claude for Desktop configuration file:
    ```bash
-   nano ~/Library/Application\ Support/Claude/claude_desktop_config.json
+   code ~/Library/Application\ Support/Claude/claude_desktop_config.json
    ```
 
 2. Add the MCP server configuration:
@@ -80,6 +80,7 @@ tail -n 20 -f ~/Library/Logs/Claude/mcp*.log
 
 # Use the MCP inspector for debugging
 npx @modelcontextprotocol/inspector
+mcp dev main.py
 ```
 
 #### Common Issues
